@@ -1,0 +1,30 @@
+.logo_big {
+    width: 318px;
+    height: 253px;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 66px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 69px;
+}
+
+.instagram_header {
+    width: 50px;
+    height: 50px;
+}
+
+.telegram_header {
+    width: 48px;
+    height: 48px;
+    padding-right: 19px;
+    padding-left: 16px;
+}

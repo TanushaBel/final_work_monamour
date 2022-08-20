@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
+@import "footer.css";
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: white;
+    position: center;
+
+    background: url(../img_ma/background_left.png) 0 108px no-repeat,
+    url(../img_ma/background_right.png) 100% 77px no-repeat;
+}
+
+@media (max-width: 1200px) {
+    .page-wrapper {
+        background: none;
+    }
+}

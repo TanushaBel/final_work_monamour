@@ -1,0 +1,160 @@
+.footer {
+    height: 169px;
+    width: auto;
+    display: flex;
+
+    background: #FFFFFF;
+    box-shadow: 0 4px 27px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:1163px) {
+    .footer {
+        max-height: 142px;
+        width: auto;
+        margin-top: 62px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.logo_min {
+    width: 124px;
+    height: 99px;
+}
+
+@media (max-width:1163px) {
+    .logo_min {
+        width: 69px;
+        height: 55px;
+    }
+}
+
+.instagram_footer {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:1163px) {
+    .instagram_footer {
+        width: 29px;
+        height: 29px;
+    }
+}
+
+.telegram_footer {
+    width: 48px;
+    height: 48px;
+    margin-left: 12px;
+}
+
+@media (max-width:1163px) {
+    .telegram_footer {
+        width: 28px;
+        height: 27px;
+    }
+}
+
+.email {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+@media (max-width:1163px) {
+    .email {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.phone {
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
+}
+
+@media (max-width:1163px) {
+    .phone {
+        width: 19px;
+        height: 19px;
+    }
+}
+
+.footer_div_1 {
+    order: 1;
+    margin-top: 23px;
+    margin-left: auto;
+}
+
+@media (max-width:1163px) {
+    .footer_div_1 {
+        order: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 32px;
+        margin-top: 24px;
+    }
+}
+
+.footer_div_2 {
+    order: 5;
+    margin-top: 62px;
+    margin-left: 103px;
+    margin-right: auto;
+}
+
+@media (max-width:1163px) {
+    .footer_div_2 {
+        order: 2;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 34px;
+        margin-top: 14px
+    }
+}
+
+.footer_div_3 {
+    order: 2;
+    margin-top: 65px;
+    margin-left: 102px;
+    display: flex;
+}
+
+@media (max-width:1163px) {
+    .footer_div_3 {
+        order: 3;
+        margin-top: 29px;
+        margin-left: 49px;
+        display: flex;
+    }
+}
+
+.footer_div_4 {
+    order: 3;
+    margin-top: 69px;
+    margin-left: 44px;
+    display: flex;
+}
+
+@media (max-width:1163px) {
+    .footer_div_4 {
+        order: 4;
+        margin-top: 16px;
+        margin-left: 49px;
+        display: flex;
+    }
+}
+
+.footer_div_5 {
+    order: 4;
+    margin-top: 67px;
+    margin-left: 43px;
+}
+
+@media (max-width:1163px) {
+    .footer_div_5 {
+        order: 5;
+        margin-top: 11px;
+        margin-left: 57px;
+    }
+}

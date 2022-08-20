@@ -1,0 +1,206 @@
+.section_shop {
+    width: 1187px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width:1187px) {
+    .section_shop {
+        width: auto;
+        text-align: center;
+    }
+}
+.title_shop {
+    margin-top: 168px;
+    font-size: 46px;
+    line-height: 63px;
+    font-weight: 400;
+    text-align: center;
+
+    color: #000000;
+}
+
+@media (max-width:1187px) {
+    .title_shop {
+        font-size: 32px;
+        line-height: 44px;
+        margin-top: 82px;
+        text-align: center;
+    }
+}
+.trench {
+    width: 544px;
+    height: 675px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 96px;
+    float: left;
+}
+
+@media (max-width:676px) {
+    .trench {
+        max-width: 334px;
+        max-height: 450px;
+        float: none;
+        margin-left: 21px;
+        margin-right: 20px;
+        margin-top: 68px;
+    }
+}
+
+.content_shop_trench {
+    margin-top: 172px;
+    margin-left: 86px;
+    float: left;
+}
+
+@media (max-width:1187px) {
+    .content_shop_trench {
+        margin-top: 34px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+.title {
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #313131;
+}
+
+.measurement {
+    width: 30px;
+    height: 27px;
+    margin-top: 14px;
+}
+
+@media (max-width:1187px) {
+    .measurement {
+        margin-top: 19px;
+    }
+}
+
+.text {
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #414141;
+}
+
+.promo_code {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 83px;
+
+    color: #000000;
+}
+
+@media (max-width:1187px) {
+    .promo_code {
+        margin-top: 22px;
+    }
+}
+.code {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin-top: 5px;
+
+    color: #000000;
+}
+
+@media (max-width:1187px) {
+    .code {
+        margin-top: 5px;
+    }
+}
+
+.button_code {
+    width: 412px;
+    height: 80px;
+
+    border: 3px solid #000000;
+    margin-top: 20px;
+}
+
+@media (max-width:1187px) {
+    .button_code {
+        width: 296px;
+        height: 75px;
+        margin-top: 38px;
+        text-align: center;
+    }
+}
+
+.pants {
+    width: 544px;
+    height: 675px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 267px;
+    float: right;
+}
+
+@media (max-width:676px) {
+    .pants {
+        max-width: 334px;
+        max-height: 450px;
+        float: none;
+        margin-left: 21px;
+        margin-right: 20px;
+        margin-top: 103px;
+    }
+}
+
+.content_shop_pants {
+    margin-top: 226px;
+    margin-left: auto;
+    float: left;
+}
+
+@media (max-width:1187px) {
+    .content_shop_pants {
+        margin-top: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+
+.skirt {
+    width: 544px;
+    height: 675px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 192px;
+    float: left;
+}
+
+@media (max-width:676px) {
+    .skirt {
+        max-width: 334px;
+        max-height: 450px;
+        float: none;
+        margin-left: 21px;
+        margin-right: 20px;
+        margin-top: 98px;
+    }
+}
+
+.content_shop_skirt {
+    margin-top: 233px;
+    margin-left: 86px;
+    float: left;
+}
+
+@media (max-width:1187px) {
+    .content_shop_skirt {
+        margin-top: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
